@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+</head>
+
+<body>
+
+    <h1>HTML Advanced Tags</h1>
+
+    <!--iframe tag-->
+
+    <iframe src="https://www.blogger.com/about/" height="200" width="500"></iframe>
+
+    <!-- block & inline level elements -->
+
+    <h2 style="background-color: orange; color: white;">Block <span style="background-color: black;">element</span></h2>
+    <span style="background-color: black; color: white;">I am inline</span>
+
+    <p>Lorem ipsum dolor sit amet, consectetur <i>adipisicing elit.</i> Molestias <b>aperiam</b> itaque maiores? Aperiam
+        debitis quas molestiae totam animi corporis repellat magni, aut nobis quo dolor consectetur accusamus quae
+        delectus enim.</p>
+    <!-- FORM -->
+
+
+    <h2>HTML FORM</h2>
+
+    <form method="get">
+
+        <!-- text input -->
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name">
+
+        <br>
+
+        <!-- email -->
+
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your email">
+
+        <br>
+
+        <!-- radio buttons -->
+
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <br>
+
+        <!-- checkbox -->
+
+        <input type="checkbox" id="eligible">
+        <label for="eligible">Are you eligible for this post?</label>
+        <br>
+        <!-- textarea -->
+        <label for="text-area">Write down your suggestions</label>
+        <br>
+        <textarea name="text-area" id="text-area" rows="4" cols="50"></textarea>
+
+        <br>
+
+        <!-- selection -->
+
+        <label for="select">Select your favorite fruit</label>
+        <select name="select" id="select">
+
+
+            <option value="apple">Apple</option>
+            <option value="apple">Mngo</option>
+            <option value="apple">Banana</option>
+            <option value="apple">Orange</option>
+        </select>
+
+        <br>
+        <input type="submit">
+
+    </form>
+
+    <!-- video -->
+
+    <video height="200" width="100" controls loop poster>
+        <source src="movie.mp4" type="">
+
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Semantic -->
+
+    <header>Header</header>
+    <footer>Footer</footer>
+
+    <!-- detail tag -->
+
+    <details>
+        <summary>Detail</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+
+    <ul style="list-style: none; display: flex;">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+</body>
+
+</html>
