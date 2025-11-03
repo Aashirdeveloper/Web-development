@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* h3{
+    background-color: purple;
+    color: white ;
+} */
+
+/* div{
+    color: blue;
+    background-color: azure;
+} */
+
+.abc {
+    color: brown;
+    background-color: white;
+}
+
+#xyz {
+    font-size: 40px;
+
+}
+
+#xyz:hover {
+    cursor: pointer;
+
+}
+
+#child>p {
+    color: red;
+}
+
+
+.pseudo a:visited {
+    color: orange;
+}
+
+.pseudo a:hover {
+    color: red;
+}
+
+.childSelector p:nth-child(even) {
+
+    color: purple;
+    background-color: green;
+}
+
+.childSelector p:nth-child(odd) {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+.colors {
+    color: rgb(178, 14, 14);
+    color: #27F531;
+    color: rgb(0, 255, 255);
+    color: rgba(242, 255, 0, 0.5);
+}
