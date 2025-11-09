@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Background colors and background gradient */
+.box-1 {
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+}
+
+.box-2 {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom, red, yellow);
+}
+.box-3{
+  width: 100%;
+    height: 300px;
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+/* Background Image  */
+
+.box-4{
+    width: 100%;
+    height: 500px;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    
+}
+.box-5{
+    width: 100%;
+    height: 500px;
+    background-image: url('images/pattern.png'); 
+    
+}
+.box-6{
+    background-color: yellow;
+    width: 100%;
+    height: 500px;
+    background-image: url('images/tom.jpg'), url('images/doremon.png'),url('images/micky.png');
+    background-repeat: no-repeat;
+    background-position: left top, center center, right top;
+}
+
+/* Border */
+
+.box-7{
+    /* border-style:solid ;
+    border-width: 5px;
+    border-color: red; */
+/* border: 2px solid red; */
+
+border-style: solid groove dotted dashed;
+border-width: 5px 5px 5px 5px;
+border-color: blue red black orange;
+
+}
+
+.box-8{
+    margin-top:20px ;
+    width: 500px;
+    border: 10px solid purple;
+    border-radius: 5px 0px 20px 10px;
+}
+
+.box-9{
+    height: 500px;
+    width: 500px;
+    background-color: orange;
+    border-radius: 100%;
+    border: 3px solid darkgoldenrod;
+}
+
+/* Box-Model */
+
+.content{
+    clear: both;
+    overflow: hidden;
+    height: auto;
+}
+
+.box-10{
+    background-color: lightblue;
+    width: 500px;
+    padding: 10px;
+    float: left;
+    
+    
+margin: 20px 50px;
+}
+
+.box-10 p{
+   margin: 50px;
+
+}
+.box-12 p{
+    text-align: left;
+    color: blue;
+    text-decoration: underline;
+    text-decoration: none;
+    /* text-indent: 60px; */
+    letter-spacing: 2px;
+    line-height: 2;
+    direction: ltr;
+
+}
+
+.urdu-text{
+    direction: rtl;
+}
+
+.text{
+    margin: 30px 0px;
+    text-align: center;
+    text-shadow:  2px 2px 3px #ff0000;;
+}
